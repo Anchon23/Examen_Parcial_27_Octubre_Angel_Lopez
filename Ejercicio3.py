@@ -5,10 +5,22 @@ class Alumno():
         self.nota = nota
         print(self.nombre,", el alumno, ha sido creado con éxito")
 
-    def calificacion(self):
+    def __str__(self):
         if self.nota>=5:
-            print("aprobar")
+            print(self.nombre,"Aprobado")
         else:
-            print("suspender")
+            print(self.nombre,"Suspenso")
+        return '''\
+    nombre\t{}
+    nota\t{}'''.format(self.nombre,self.nota)
     
-Albaro = Alumno("Albaro",16)
+Albaro = Alumno("Albaro",6)
+print(Albaro)
+Pablo = Alumno("Pablo",2)
+print(Pablo)
+Pepe = Alumno("Pepe",8)
+print(Pepe)
+Maria = Alumno("Maria",10)
+print(Maria)
+Nicolas = Alumno("Nicolas",1)
+print(Nicolas)
