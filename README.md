@@ -1,5 +1,7 @@
 # Examen_Parcial_27_Octubre_Angel_Lopez
 
+https://github.com/Anchon23/Examen_Parcial_27_Octubre_Angel_Lopez.git
+
 # PREGUNTA 2
 
 Recorre el listado del ejemplo y realiza las siguientes operaciones:
